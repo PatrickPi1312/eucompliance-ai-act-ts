@@ -1,6 +1,6 @@
 {
   "name": "eucompliance-ai-act",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "EU AI Act Article 50 disclosure for deployers - one line, and your content never leaves your system",
   "keywords": [
     "ai-act",
@@ -26,6 +26,10 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./middleware": {
+      "types": "./dist/middleware.d.ts",
+      "default": "./dist/middleware.js"
     }
   },
   "files": [

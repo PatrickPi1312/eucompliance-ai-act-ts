@@ -21,6 +21,26 @@ console.log(response.disclosure.record);   // the signed provenance record, for 
 
 Nothing else changes: same calls, same return values, same errors. Works with the OpenAI and Anthropic SDKs, and with anything exposing a comparable `create` method.
 
+## Already using the Vercel AI SDK?
+
+```ts
+import { wrapLanguageModel } from "ai";
+import { euComplianceMiddleware } from "eucompliance-ai-act/middleware";
+
+const model = wrapLanguageModel({
+  model: openai("gpt-5"),
+  middleware: euComplianceMiddleware({ deployer: "Muster GmbH" }),
+});
+```
+
+Works with `generateText` and `streamText`. By default it never makes your model
+call wait — the disclosure is produced alongside it. Pass `await: true` to get the
+record back in `providerMetadata.eucompliance` within the same call, or
+`onDisclosure` to write it straight into your own log.
+
+No dependency on `ai` is added: the middleware is structural, so it fits every SDK
+version that knows `wrapGenerate` / `wrapStream`.
+
 ## Your content never leaves your system
 
 This is the point of the design, not a footnote.
