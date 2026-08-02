@@ -1,6 +1,6 @@
 {
   "name": "eucompliance-ai-act",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EU AI Act Article 50 disclosure for deployers - one line, and your content never leaves your system",
   "keywords": [
     "ai-act",
@@ -17,6 +17,8 @@
   "license": "MIT",
   "author": "Patrick Kaufmann",
   "homepage": "https://eucompliance.tools",
+  "repository": { "type": "git", "url": "git+https://github.com/PatrickPi1312/eucompliance-ai-act-ts.git" },
+  "bugs": { "url": "https://github.com/PatrickPi1312/eucompliance-ai-act-ts/issues" },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
