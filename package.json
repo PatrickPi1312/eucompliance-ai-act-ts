@@ -1,0 +1,45 @@
+{
+  "name": "eucompliance-ai-act",
+  "version": "0.1.0",
+  "description": "EU AI Act Article 50 disclosure for deployers - one line, and your content never leaves your system",
+  "keywords": [
+    "ai-act",
+    "eu-ai-act",
+    "article-50",
+    "compliance",
+    "disclosure",
+    "provenance",
+    "transparency",
+    "llm",
+    "openai",
+    "anthropic"
+  ],
+  "license": "MIT",
+  "author": "Patrick Kaufmann",
+  "homepage": "https://eucompliance.tools",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
