@@ -6,7 +6,7 @@
  * nicht der Modellanbieter. Bussgeld bis 15 Mio. EUR oder 3 % des weltweiten
  * Jahresumsatzes.
  *
- *     import { wrap } from "@eucompliance/ai-act";
+ *     import { wrap } from "eucompliance-ai-act";
  *     const client = wrap(new OpenAI(), { deployer: "Muster GmbH" });
  *
  * Danach traegt jede Antwort ihren Nachweis und ihren Hinweistext. Sonst
