@@ -1,18 +1,12 @@
 {
   "name": "eucompliance-ai-act",
-  "version": "0.2.0",
-  "description": "EU AI Act Article 50 disclosure for deployers - one line, and your content never leaves your system",
+  "version": "0.2.1",
+  "description": "EU AI Act Article 50 disclosure for the Vercel AI SDK, LiteLLM and LangChain - one line, and your content never leaves your system",
   "keywords": [
-    "ai-act",
-    "eu-ai-act",
-    "article-50",
-    "compliance",
-    "disclosure",
-    "provenance",
-    "transparency",
-    "llm",
-    "openai",
-    "anthropic"
+    "ai-act", "eu-ai-act", "eu-ai-act-2026", "article-50", "compliance",
+    "disclosure", "provenance", "transparency", "ai-transparency",
+    "chatbot-disclosure", "deployer", "llm", "openai", "anthropic",
+    "vercel-ai-sdk", "ai-sdk", "middleware", "litellm", "langchain"
   ],
   "license": "MIT",
   "author": "Patrick Kaufmann",

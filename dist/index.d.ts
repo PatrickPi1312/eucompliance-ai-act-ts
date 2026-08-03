@@ -21,7 +21,7 @@
  * dass Inhalt ohne Nachweis menschlich ist. Zuverlaessige Erkennung von
  * KI-Text existiert nicht.
  */
-export declare const VERSION = "0.2.0";
+export declare const VERSION = "0.2.1";
 export type Kind = "text" | "bearbeitet" | "deepfake" | "interaktion";
 export type Language = "de" | "en";
 export interface DiscloseOptions {

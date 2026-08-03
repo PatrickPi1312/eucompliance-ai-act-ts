@@ -22,7 +22,7 @@
  * KI-Text existiert nicht.
  */
 
-export const VERSION = "0.2.0";
+export const VERSION = "0.2.1";
 
 const FREI = "https://api.eucompliance.tools/free/ai-disclosure";
 const PRUEFEN = "https://api.eucompliance.tools/verify";
